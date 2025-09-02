@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-weight: normal;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.Encabezado {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffff1c;
+}
+
+.Encabezado h2 {
+    font-size: 30px;
+    font-family: Anton;
+}
+
+.icono-principal {
+    margin: 40px;
+    position: fixed;
+    z-index: 10;
+}
+
+.icono-principal img {
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+}
+
+.titulo-inicial {
+    margin-top: 100px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.titulo-inicial h1{
+    font-size: 30px;
+    font-family: Anton;
+    color: #821c09;
+}
+
+.primero {
+    padding: 30px 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: Libre Baskerville;
+    text-align: justify;
+    gap: 25px;
+}
+
+.primero img {
+    width: 308px;
+    height: 245px;
+}
+
+.segundo {
+    padding: 30px 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: Libre Baskerville;
+    text-align: justify;
+}
+
+.img2 {
+    padding: 30px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 img {
+    width: 259px;
+    height: 270px;
+}
+
+.tercero {
+    padding: 30px 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: Libre Baskerville;
+    text-align: justify;
+}
+
+.cuarto {
+    padding: 30px 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: Libre Baskerville;
+    text-align: justify;
+    gap: 25px;
+}
+
+.cuarto img {
+    width: 440px;
+    height: 256px;
+}
+
+.quinto {
+    padding: 30px 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: Libre Baskerville;
+    text-align: justify;
+}
+
+.sexto {
+    padding: 30px 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: Libre Baskerville;
+    text-align: justify;
+    gap: 25px;
+}
+
+.sexto img {
+    width: 600px;
+    height: 200px;
+}
+
+.septimo {
+    padding: 30px 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: Libre Baskerville;
+    text-align: justify;
+}
+
+.pie-pagina {
+    padding: 50px;
+    background-color: #ffff1c;
+}
+
+.pie-pagina p {
+    font-size: 15px;
+    font-family: Anton;
+    margin: 0;
+    text-align: center;
+}

@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-weight: normal;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.Encabezado {
+    display: flex;
+    padding: 30px;
+    background-color: #ffff1c;
+}
+
+.Encabezado h2 {
+    font-size: 30px;
+    font-family: Anton;
+}
+
+.Encabezado-bienvenida {
+    background-image: url('../img/Backgroundo-bienvenida.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin: 30px 30px;
+    max-width: 1200px;
+    min-height: 150px;
+    border-radius: 15px;
+}
+
+.Encabezado-bienvenida h3 {
+    font-family: Anton;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.Encabezado-bienvenida p {
+    font-family: Libre Baskerville;
+    font-size: 17px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.Texto-introduccion {
+    padding: 30px 70px;
+    display: flex;
+    font-size: 20px;
+    font-family: Libre Baskerville;
+    text-align: justify;
+}
+
+.texto {
+    margin: 5px 30px 5px 30px;
+    padding: 50px;
+    font-size: 20px;
+    font-family: Libre Baskerville;
+}
+
+.seccion-hipervinculos {
+    display: flex;
+    background-color: #ffff26;
+    background: linear-gradient(90deg, rgba(255, 255, 38, 1) 0%, rgba(102, 102, 45, 1) 0%, rgba(255, 231, 13, 1) 100%);
+    margin:auto;
+    padding: 30px;
+    height: 270px;
+    gap:25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Tarjeta {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    width: 310px;
+    height: 190px;
+    padding: 30px 25px;
+    background: #ffffff;
+    transition: all 0.5s;
+    border-radius: 45px;
+}
+
+.Tarjeta:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(208, 195, 195, 0.5), rgb(0, 0, 0));
+    transition: all 0.5s;
+    opacity: 0;
+    border-radius: 40px;
+}
+
+.Tarjeta:hover:after {
+    opacity: 1;
+}
+
+.Tarjeta > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 40px;   
+}
+
+.Tarjeta .info {
+    position: relative;
+    z-index: 3;
+    color: #ffffff;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Tarjeta:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.Tarjeta .info h1 {
+    font-size: 25px;
+    font-family: Anton;
+    margin: 0;
+}
+
+.Tarjeta .info p {
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-family: Libre Baskerville;
+    margin: 10px 0 25px;
+    line-height: 130%;
+}
+
+.Tarjeta .info .boton {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: #ffffff;
+    color: #4b5563;
+    font-size: 0.85rem;
+    font-family: Libre Baskerville;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.Tarjeta .info .boton:hover {
+    background-color: #4b5563;
+    color: #ffffff;
+}
+
+.pie-pagina {
+    padding: 50px;
+    background-color: #ffff1c;
+}
+
+.pie-pagina p {
+    font-size: 15px;
+    font-family: Anton;
+    margin: 0;
+    text-align: center;
+}

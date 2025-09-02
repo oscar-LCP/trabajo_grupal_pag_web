@@ -134,6 +134,22 @@ body {
     text-align: justify;
 }
 
+.boton-inferior {
+  position: fixed;
+  bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  z-index: 1000;
+}
+
+.izquierdo {
+  left: 20px;
+}
+
+.derecho {
+  right: 20px;
+}
+
 .pie-pagina {
     padding: 50px;
     background-color: #ffff1c;

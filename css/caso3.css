@@ -47,10 +47,22 @@ body {
     font-size: 30px;
     font-family: "Michroma", sans-serif;
     font-style: normal;
-    color: #b22222;
+    color: darkblue;
 }
 
-.primer-parrafo {
+.subtitulo {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.subtitulo h2{
+    font-size: 30px;
+    font-family: "Michroma", sans-serif;
+    font-style: normal;
+    color: darkblue;
+}
+
+.primer-parrafo { /*Parrafo con la imagen a la izquierda*/
     color: #fffff0;
     padding: 30px 100px;
     display: flex;
@@ -68,7 +80,7 @@ body {
     width: 300px;
 }
 
-.segundo-parrafo {
+.segundo-parrafo { /*Párrafo sin imagen*/
     color: #fffff0;
     padding: 30px 100px;
     display: flex;
@@ -80,3 +92,49 @@ body {
     gap: 25px;
 }
 
+.tercer-parrafo {           /*Parrafo con la imagen a la derecha*/
+    color: #fffff0;
+    padding: 30px 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: "Story Script", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: justify;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.segunda-img {
+    width: 400px;
+}
+
+.pie-pagina {
+    padding: 50px;
+    background-color: #ffff1c;
+}
+
+.pie-pagina p {
+    font-size: 15px;
+    font-family: "Michroma", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.boton-inferior {
+  position: fixed;
+  bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  z-index: 1000;
+}
+
+.izquierdo {
+  left: 20px;
+}
+
+.derecho {
+  right: 20px;
+}

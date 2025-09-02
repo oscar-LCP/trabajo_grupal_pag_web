@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap'); /* Titulo de la pagina */
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap'); /* Texto para cuerpo de la pagina */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-weight: normal;
+}
+
+body {
+    background-color: #708090;
+}
+
+.Encabezado {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffff1c;
+}
+
+.Encabezado h2 {
+    font-size: 30px;
+    font-family: "Michroma", sans-serif;
+    font-style: normal;
+}
+
+.icono-principal {
+    margin: 40px;
+    position: fixed;
+    z-index: 10;
+}
+
+.icono-principal img {
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+}
+
+.titulo-inicial {
+    margin-top: 100px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.titulo-inicial h1{
+    font-size: 30px;
+    font-family: "Michroma", sans-serif;
+    font-style: normal;
+    color: #b22222;
+}
+
+.primer-parrafo {
+    color: #fffff0;
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: "Story Script", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: justify;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.primera-img {
+    width: 300px;
+}
+
+.segundo-parrafo {
+    color: #fffff0;
+    padding: 30px 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: "Story Script", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: justify;
+    gap: 25px;
+}
+

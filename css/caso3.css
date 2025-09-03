@@ -124,9 +124,7 @@ body {
 }
 
 .boton-inferior {
-  position: fixed;
-  bottom: 20px;
-  padding: 10px 20px;
+  position: absolute;
   font-size: 16px;
   z-index: 1000;
 }

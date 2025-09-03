@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Jolly+Lodger&display=swap'); /* Titulo de la pagina */
+/* Texto para cuerpo de la página (Jolly Lodger)*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-weight: normal;
+}
+
+body {
+    background-color: white;
+}
+
+.Encabezado {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffff1c;
+}
+
+.Encabezado h2 {
+    font-size: 30px;
+    font-family: "Fontdiner Swanky", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.icono-principal {
+    margin: 40px;
+    position: fixed;
+    z-index: 10;
+}
+
+.icono-principal img {
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+}
+
+.titulo-inicial {
+    margin-top: 100px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.titulo-inicial h1{
+    font-size: 30px;
+    font-family: "Fontdiner Swanky", serif;
+    font-style: normal;
+    color: gold;
+}
+
+.subtitulo {
+    text-align: left;
+    margin-left: 100px;
+}
+
+.subtitulo h2{
+    font-size: 30px;
+    font-family: "Fontdiner Swanky", serif;
+    font-style: normal;
+    color: gold;
+}
+
+.primer-parrafo { /*Parrafo con la imagen a la izquierda*/
+    color: rgb(92, 92, 92);
+    padding: 30px 100px;
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    text-align: justify;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.primera-img {
+    width: 300px;
+}
+
+.segundo-parrafo { /*Párrafo sin imagen*/
+    color: rgb(92, 92, 92);
+    padding: 30px 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    text-align: justify;
+    gap: 25px;
+}
+
+.tercer-parrafo {  /*Parrafo con la imagen a la derecha*/
+    color: rgb(92, 92, 92);
+    padding: 30px 100px;
+    display: flex;
+    font-size: 20px;
+    font-family: "Jolly Lodger", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    text-align: justify;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.pie-pagina {
+    padding: 50px;
+    background-color: #ffff1c;
+}
+
+.pie-pagina p {
+    font-size: 15px;
+    font-family: "Fontdiner Swanky", serif;
+    font-weight: 200;
+    font-style: normal;
+    margin: 0;
+    text-align: center;
+}
+
+.boton-inferior {
+  position: fixed;
+  bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  z-index: 1000;
+}
+
+.izquierdo {
+  left: 20px;
+}
+
+.derecho {
+  right: 20px;
+}

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&family=Jolly+Lodger&display=swap'); /* Titulo de la pagina */
 /* Texto para cuerpo de la página (Jolly Lodger)*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
 
 * {
     margin: 0px;
@@ -21,7 +23,7 @@ body {
 
 .Encabezado h2 {
     font-size: 30px;
-    font-family: "Fontdiner Swanky", serif;
+    font-family: Anton;
     font-style: normal;
     font-weight: 400;
 }
@@ -113,7 +115,7 @@ body {
 
 .pie-pagina p {
     font-size: 15px;
-    font-family: "Fontdiner Swanky", serif;
+    font-family: Anton;
     font-weight: 200;
     font-style: normal;
     margin: 0;
